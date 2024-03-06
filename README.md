@@ -1,5 +1,6 @@
 # Hyprland Waybar
 This is my configuration for hyprland waybar
+![screenshot](https://github.com/fand1l/hyprland.waybar/screenshot.png)
 
 ## Files
 Description of the files
