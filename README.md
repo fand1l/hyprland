@@ -1,2 +1,14 @@
-# hyprland.waybar
-my hyprland waybar configuration
+# Hyprland Waybar
+This is my configuration for hyprland waybar
+
+## Files
+Description of the files
+
+### config
+The configuration file for Waybar. It stores information about the position of the panel and the modules used.
+
+### modules.json
+Information about modules and their configuration is stored here
+
+### style.css
+Styles for Waybar are stored here
