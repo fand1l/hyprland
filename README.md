@@ -1,6 +1,6 @@
 # Hyprland Waybar
 This is my configuration for hyprland waybar
-![screenshot](https://github.com/fand1l/hyprland.waybar/screenshot.png)
+![Screenshot](https://github.com/fand1l/hyprland.waybar/raw/main/screenshot.png)
 
 ## Files
 Description of the files
