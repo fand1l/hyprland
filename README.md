@@ -11,11 +11,11 @@ cd yay
 makepkg -si
 ```
 
-## Packages (yay)
+## Packages
 ```
 hyprland
 waybar
-pavucontrol
+pavucontrol 
 pamixer
 ```
 
