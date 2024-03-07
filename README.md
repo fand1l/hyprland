@@ -1,22 +1,23 @@
-# Hyprland Waybar
-This is my configuration for hyprland waybar
+# Hyprland
+This is my configuration for hyprland & waybar
 ![Screenshot](https://github.com/fand1l/hyprland.waybar/raw/main/screenshot.png)
 
 ## Requirements
 
-## yay
-```
-git clone https://aur.archlinux.org/yay.git
-cd yay
-makepkg -si
-```
-
-## Packages
+### Packages
 ```
 hyprland
 waybar
 pavucontrol 
 pamixer
+brightnessctl
+thunar
+kitty
+wofi
+wlogout
+noto-fonts-emoji
+ttf-nerd-fonts-symbols-common
+ttf-jetbrains-mono-nerd
 ```
 
 ## Files
