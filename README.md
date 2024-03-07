@@ -11,6 +11,8 @@ waybar
 pavucontrol 
 pamixer
 brightnessctl
+polkit
+polkit-gnome
 thunar
 kitty
 wofi
