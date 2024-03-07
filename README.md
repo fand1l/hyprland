@@ -36,3 +36,6 @@ Styles for Waybar are stored here
 
 ### scripts/waybar-wttr
 ![ChrisTitusTech](https://github.com/ChrisTitusTech/hyprland-titus/tree/main/dotconfig/waybar/scripts) script to get weather for the waybar of the custom/weather module
+
+### hypr/hyprland.conf
+The configuration file for Hyprland
