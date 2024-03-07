@@ -1,0 +1,59 @@
+// Modules for Waybar by fand1l ( 2024 )
+// GitHub: https://github.com/fand1l/...
+
+// SETTINGS
+
+{
+
+    // POSITIONS
+    
+    // top
+    "layer": "top",
+    "margin-top": 3,
+    "margin-bottom": 0,
+
+    // bottom
+    // "position": "bottom",
+    // "margin-top": 0,
+    // "margin-bottom": 12,
+
+    // left/right
+    "margin-left": 10,
+    "margin-right": 10,
+
+    // other
+    "spacing": 0,
+
+    
+    // LOADING MODULES
+    "include": ["~/.config/waybar/modules.json"],
+
+    
+    // MODULES
+    
+    // left
+    "modules-left": [
+        "pulseaudio",
+        "pulseaudio#microphone",
+        "temperature",
+        "disk"
+    ],
+
+    // center
+    "modules-center": [
+        "user",
+        "hyprland/workspaces"
+    ],
+
+    // right
+    "modules-right": [
+        "tray",
+        "hyprland/language",
+        "network",
+        "bluetooth",
+        "battery",
+        "clock",
+        "custom/weather"
+    ]
+
+}
