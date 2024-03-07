@@ -11,7 +11,8 @@
     min-height: 0;
 
     font-family: JetBrainsMono Nerd Font;
-    font-size: 16px; 
+    font-size: 14px; 
+    font-weight: 700;
 }
 
 
@@ -19,23 +20,27 @@
 #clock,
 #window,
 #language,
+#user,
+#disk,
 #battery,
 #pulseaudio,
 #network,
 #bluetooth,
+#custom-weather,
 #workspaces,
+#temperature,
 #tray  {
-    background: #1e1e2e;
+    background-color: #1e1e2e;
     padding: 0px 10px;
     margin: 3px 0px;
-    margin-top: 10px;
+    margin-top: 5px;
     border: 1px solid #181825;
 }
 
 
 /* WINDOW */
 window {
-    border-radius: 10px;
+    border-radius: 20px;
     margin-right: 60px;
     margin-left: 60px;
     font-size: 14px;
@@ -56,10 +61,14 @@ window#waybar {
 
 
 /* WORKSPACES */
+#workspaces {
+    border-radius: 10px;
+}
+
 #workspaces button {
     padding: 5px;
     color: #313244;
-    margin-right: 5px;
+    margin-right: 0px;
     border-radius: 10px;
 }
 
@@ -156,4 +165,51 @@ tooltip {
     border-width: 2px;
     border-style: solid;
     border-color: #11111b;
+}
+
+
+/* USER */
+#user {
+    color: #f9cfaf;
+    border-left: 0px;
+    border-right: 0px;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+
+/* DISK */
+#disk {
+    color: #b6aff9;
+    border-left: 0px;
+    border-right: 0px;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+
+/* TEMPERATURE */
+#temperature {
+    color: #c1f9af;
+    border-left: 0px;
+    border-right: 0px;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+#temperature.critical {
+    color: #ff4a4a;
+    border-left: 0px;
+    border-right: 0px;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+
+/* WEATHER */
+#custom-weather {
+    border-left: 0px;
+    border-right: 0px;
+    border-radius: 10px;
+    margin-left: 10px;
 }

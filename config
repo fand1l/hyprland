@@ -35,12 +35,14 @@
     "modules-left": [
         "pulseaudio",
         "pulseaudio#microphone",
-        "hyprland/workspaces"
+        "temperature",
+        "disk"
     ],
 
     // center
     "modules-center": [
-        "hyprland/window"
+        "user",
+        "hyprland/workspaces"
     ],
 
     // right
@@ -50,7 +52,8 @@
         "network",
         "bluetooth",
         "battery",
-        "clock"
+        "clock",
+        "custom/weather"
     ]
 
 }
