@@ -102,6 +102,7 @@
         "format-wifi": "  {signalStrength}%",
         "format-ethernet": "  {ifname}",
         "format-disconnected": "󰖪 Disc",
+        "on-click": "nm-connection-editor",
         "tooltip-format": " {ifname} via {gwaddri}",
         "tooltip-format-disconnected": "󰖪 Disconnected",
         "max-length": 50
@@ -125,7 +126,7 @@
 
     // DISK
     "disk": {
-        "format": "  {free} GB",
+        "format": "  {free}",
         "interval": 30
     },
 
