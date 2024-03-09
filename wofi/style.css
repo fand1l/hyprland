@@ -1,0 +1,17 @@
+window {
+    font-size: 22px;
+    background-color: #14151a;
+    color: white;
+}
+#entry:selected {
+    background-color: #3a3d4f;
+    border-radius: 10px;
+}
+#input {
+    background-color: #262836;
+    border-radius: 10px;
+}
+#entry:hover {
+    background-color: #525670;
+    border-radius: 10px;
+}
