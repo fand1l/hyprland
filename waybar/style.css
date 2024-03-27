@@ -1,22 +1,13 @@
-/* Styles for Waybar by fand1l ( 2024 )
- * GitHub: https://github.com/fand1l/...
-*/
-
-
-/* ALL */
 * {
-    border: none;
-    padding: 0;
-    margin: 0;
-    min-height: 0;
-
-    font-family: JetBrainsMono Nerd Font;
-    font-size: 14px; 
-    font-weight: 700;
+  border: none;
+  padding: 0;
+  margin: 0;
+  min-height: 0;
+  font-family: JetBrainsMono Nerd Font;
+  font-size: 14px;
+  font-weight: 700;
 }
 
-
-/* MULTI */
 #clock,
 #window,
 #language,
@@ -29,187 +20,158 @@
 #custom-weather,
 #workspaces,
 #temperature,
-#tray  {
-    background-color: #1e1e2e;
-    padding: 0px 10px;
-    margin: 3px 0px;
-    margin-top: 5px;
-    border: 1px solid #181825;
+#tray {
+  background-color: #1e1e2e;
+  padding: 0px 10px;
+  margin: 3px 0px;
+  margin-top: 5px;
+  border: 1px solid #181825;
 }
 
-
-/* WINDOW */
 window {
-    border-radius: 20px;
-    margin-right: 60px;
-    margin-left: 60px;
-    font-size: 14px;
+  border-radius: 20px;
+  margin-right: 60px;
+  margin-left: 60px;
+  font-size: 14px;
 }
 
 window#waybar {
-    background: rgba(0, 0, 0, 0);
-    color: #cdd6f4;
-    border-radius: 10px;
+  background: rgba(0, 0, 0, 0);
+  color: #cdd6f4;
+  border-radius: 10px;
 }
 
-
-/* TRAY */
 #tray {
-    border-radius: 10px;
-    margin-right: 10px;
+  border-radius: 10px;
+  margin-right: 10px;
 }
 
-
-/* WORKSPACES */
 #workspaces {
-    border-radius: 10px;
+  border-radius: 10px;
 }
 
 #workspaces button {
-    padding: 5px;
-    color: #313244;
-    margin-right: 0px;
-    border-radius: 10px;
+  padding: 5px;
+  color: #313244;
+  margin-right: 0px;
+  border-radius: 10px;
 }
 
 #workspaces button.active {
-    color: #a6adc8;
-    border-radius: 10px;
+  color: #a6adc8;
+  border-radius: 10px;
 }
 
 #workspaces button.focused {
-    color: #a6adc8;
-    background: #eba0ac;
-    border-radius: 10px;
+  color: #a6adc8;
+  background: #eba0ac;
+  border-radius: 10px;
 }
 
 #workspaces button.urgent {
-    color: #11111b;
-    background: #a6e3a1;
-    border-radius: 10px;
+  color: #11111b;
+  background: #a6e3a1;
+  border-radius: 10px;
 }
 
 #workspaces button:hover {
-    background: #11111b;
-    color: #cdd6f4;
-    border-radius: 10px;
+  background: #11111b;
+  color: #cdd6f4;
+  border-radius: 10px;
 }
 
-
-/* CLOCK */
 #clock {
-    color: #fab347;
-    border-radius: 10px;
-    margin-left: 5px;
-    border-right: 0px;
+  color: #fab347;
+  border-radius: 10px;
+  margin-left: 5px;
+  border-right: 0px;
 }
 
-
-/* NETWORK */
 #network {
-    color: #f9afaf;
-    border-left: 0px;
-    border-right: 0px;
+  color: #f9afaf;
+  border-left: 0px;
+  border-right: 0px;
 }
 
-
-/* BLUETOOTH */
 #bluetooth {
-    color: #afb7fa;
-    border-left: 0px;
-    border-right: 0px;
+  color: #fab347;
+  border-left: 0px;
+  border-right: 0px;
 }
 
-
-/* PULSEAUDIO */
 #pulseaudio {
-    color: #9efa89;
-    border-left: 0px;
-    border-right: 0px;
-    border-radius: 10px 0 0 10px;
+  color: #9efa89;
+  border-left: 0px;
+  border-right: 0px;
+  border-radius: 10px 0 0 10px;
 }
 
-
-/* PULSEAUDIO MICRO */
 #pulseaudio.microphone {
-    color: #e6a6f7;
-    border-radius: 0px 10px 10px 0px;
-    border-left: 0px;
-    border-right: 0px;
-    margin-right: 5px;
+  color: #e6a6f7;
+  border-radius: 0px 10px 10px 0px;
+  border-left: 0px;
+  border-right: 0px;
+  margin-right: 5px;
 }
 
-
-/* BATTERY */
 #battery {
-    color: #a1e3cc;
-    border-radius: 0 10px 10px 0;
-    margin-right: 10px;
-    border-left: 0px;
+  color: #a1e3cc;
+  border-radius: 0 10px 10px 0;
+  margin-right: 10px;
+  border-left: 0px;
 }
 
-
-/* LANGUAGE */
 #language {
-    color: #8ba2f3;
-    border-left: 0px;
-    border-right: 0px;
-    border-radius: 10px 0 0 10px;
+  color: #8ba2f3;
+  border-left: 0px;
+  border-right: 0px;
+  border-radius: 10px 0 0 10px;
 }
 
-
-/* TOOLTIP */
 tooltip {
-    background: #1e1e2e;
-    border-radius: 10px;
-    border-width: 2px;
-    border-style: solid;
-    border-color: #11111b;
+  background: #1e1e2e;
+  border-radius: 10px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #11111b;
 }
 
-
-/* USER */
 #user {
-    color: #f9cfaf;
-    border-left: 0px;
-    border-right: 0px;
-    border-radius: 10px;
-    margin-right: 10px;
+  color: #f9cfaf;
+  border-left: 0px;
+  border-right: 0px;
+  border-radius: 10px;
+  margin-right: 10px;
 }
 
-
-/* DISK */
 #disk {
-    color: #b6aff9;
-    border-left: 0px;
-    border-right: 0px;
-    border-radius: 10px;
-    margin-right: 10px;
+  color: #b6aff9;
+  border-left: 0px;
+  border-right: 0px;
+  border-radius: 10px;
+  margin-right: 10px;
 }
 
-
-/* TEMPERATURE */
 #temperature {
-    color: #c1f9af;
-    border-left: 0px;
-    border-right: 0px;
-    border-radius: 10px;
-    margin-right: 10px;
+  color: #c1f9af;
+  border-left: 0px;
+  border-right: 0px;
+  border-radius: 10px;
+  margin-right: 10px;
 }
 
 #temperature.critical {
-    color: #ff4a4a;
-    border-left: 0px;
-    border-right: 0px;
-    border-radius: 10px;
-    margin-right: 10px;
+  color: #ff4a4a;
+  border-left: 0px;
+  border-right: 0px;
+  border-radius: 10px;
+  margin-right: 10px;
 }
 
-
-/* WEATHER */
 #custom-weather {
-    border-left: 0px;
-    border-right: 0px;
-    border-radius: 10px;
-    margin-left: 10px;
+  border-left: 0px;
+  border-right: 0px;
+  border-radius: 10px;
+  margin-left: 10px;
+  color: #fff;
 }
