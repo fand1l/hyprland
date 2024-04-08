@@ -1,0 +1,13 @@
+#taskbar {
+    border-radius: 10px;
+    padding: 0 10px 0 10px;
+}
+
+#taskbar button {
+    padding: 0 5px 0 5px;
+}
+  
+#taskbar button:hover {
+    background: #11111b;
+    border-radius: 10px;
+}

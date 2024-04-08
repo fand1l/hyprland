@@ -1,0 +1,11 @@
+window {
+    border-radius: 20px;
+    font-size: 14px;
+}
+  
+window#waybar {
+    background: rgba(1, 2, 3, 0.009);
+    color: #cdd6f4;
+    border-radius: 10px;
+    padding: 0 10px 0 10px;
+}

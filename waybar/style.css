@@ -1,3 +1,32 @@
+/* 
+  Styles for Waybar by fand1l ( 2024 )
+  GitHub: https://github.com/fand1l/hyprland
+*/
+
+
+/* IMPORTS */
+@import url("styles/battery.css");
+@import url("styles/bluetooth.css");
+@import url("styles/clock.css");
+@import url("styles/disk.css");
+@import url("styles/language.css");
+@import url("styles/menu.css");
+@import url("styles/netspeed.css");
+@import url("styles/network.css");
+@import url("styles/power.css");
+@import url("styles/pulseaudio.css");
+@import url("styles/separator.css");
+@import url("styles/taskbar.css");
+@import url("styles/temperature.css");
+@import url("styles/tooltip.css");
+@import url("styles/tray.css");
+@import url("styles/user.css");
+@import url("styles/weather.css");
+@import url("styles/window.css");
+@import url("styles/workspaces.css");
+
+
+/* ALL */
 * {
   border: none;
   padding: 0;
@@ -13,165 +42,20 @@
 #language,
 #user,
 #disk,
+#custom-menu,
+#custom-power,
 #battery,
+#custom-netspeed,
 #pulseaudio,
 #network,
 #bluetooth,
+#taskbar,
 #custom-weather,
 #workspaces,
 #temperature,
 #tray {
-  background-color: #1e1e2e;
-  padding: 0px 10px;
-  margin: 3px 0px;
-  margin-top: 5px;
-  border: 1px solid #181825;
-}
-
-window {
-  border-radius: 20px;
-  margin-right: 60px;
-  margin-left: 60px;
-  font-size: 14px;
-}
-
-window#waybar {
-  background: rgba(0, 0, 0, 0);
-  color: #cdd6f4;
-  border-radius: 10px;
-}
-
-#tray {
-  border-radius: 10px;
-  margin-right: 10px;
-}
-
-#workspaces {
-  border-radius: 10px;
-}
-
-#workspaces button {
-  padding: 5px;
-  color: #313244;
-  margin-right: 0px;
-  border-radius: 10px;
-}
-
-#workspaces button.active {
-  color: #a6adc8;
-  border-radius: 10px;
-}
-
-#workspaces button.focused {
-  color: #a6adc8;
-  background: #eba0ac;
-  border-radius: 10px;
-}
-
-#workspaces button.urgent {
-  color: #11111b;
-  background: #a6e3a1;
-  border-radius: 10px;
-}
-
-#workspaces button:hover {
-  background: #11111b;
-  color: #cdd6f4;
-  border-radius: 10px;
-}
-
-#clock {
-  color: #fab347;
-  border-radius: 10px;
-  margin-left: 5px;
-  border-right: 0px;
-}
-
-#network {
-  color: #f9afaf;
-  border-left: 0px;
-  border-right: 0px;
-}
-
-#bluetooth {
-  color: #fab347;
-  border-left: 0px;
-  border-right: 0px;
-}
-
-#pulseaudio {
-  color: #9efa89;
-  border-left: 0px;
-  border-right: 0px;
-  border-radius: 10px 0 0 10px;
-}
-
-#pulseaudio.microphone {
-  color: #e6a6f7;
-  border-radius: 0px 10px 10px 0px;
-  border-left: 0px;
-  border-right: 0px;
-  margin-right: 5px;
-}
-
-#battery {
-  color: #a1e3cc;
-  border-radius: 0 10px 10px 0;
-  margin-right: 10px;
-  border-left: 0px;
-}
-
-#language {
-  color: #8ba2f3;
-  border-left: 0px;
-  border-right: 0px;
-  border-radius: 10px 0 0 10px;
-}
-
-tooltip {
-  background: #1e1e2e;
-  border-radius: 10px;
-  border-width: 2px;
-  border-style: solid;
-  border-color: #11111b;
-}
-
-#user {
-  color: #f9cfaf;
-  border-left: 0px;
-  border-right: 0px;
-  border-radius: 10px;
-  margin-right: 10px;
-}
-
-#disk {
-  color: #b6aff9;
-  border-left: 0px;
-  border-right: 0px;
-  border-radius: 10px;
-  margin-right: 10px;
-}
-
-#temperature {
-  color: #c1f9af;
-  border-left: 0px;
-  border-right: 0px;
-  border-radius: 10px;
-  margin-right: 10px;
-}
-
-#temperature.critical {
-  color: #ff4a4a;
-  border-left: 0px;
-  border-right: 0px;
-  border-radius: 10px;
-  margin-right: 10px;
-}
-
-#custom-weather {
-  border-left: 0px;
-  border-right: 0px;
-  border-radius: 10px;
-  margin-left: 10px;
-  color: #fff;
+  background-color: #1E1F20;
+  border: 1px solid #242526;
+  padding-bottom: 5px;
+  padding-top: 5px;
 }
