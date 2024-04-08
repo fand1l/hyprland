@@ -1,0 +1,7 @@
+{
+    "hyprland/window": {
+        "format": "{}",
+        "rewrite": {},
+        "separate-outputs": true
+    }
+}

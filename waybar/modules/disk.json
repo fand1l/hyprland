@@ -1,0 +1,7 @@
+{
+    "disk": {
+        "format": "  {free}",
+        "interval": 30,
+        "max-length": 20
+    }
+}

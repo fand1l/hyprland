@@ -1,0 +1,6 @@
+{
+    "custom/menu": {
+        "format": "menu",
+        "on-click": "rofi -show drun"
+    }
+}
