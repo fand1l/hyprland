@@ -1,3 +1,4 @@
+# With Bugs!!!
 # Hyprland
 This is my configuration for hyprland
 ![Screenshot](https://github.com/fand1l/hyprland/raw/main/screenshot.png)
