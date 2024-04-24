@@ -1,0 +1,11 @@
+{
+    "hyprland/window": {
+        "format": "{}",
+        "rewrite": {
+            "(.*) — Mozilla Firefox": "󰈹 Firefox",
+            "(.*) — Ablaze Floorp": " Floorp"
+
+        },
+        "separate-outputs": true
+    }
+}

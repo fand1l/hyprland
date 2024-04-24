@@ -5,6 +5,8 @@ This is my configuration for hyprland
 ## Requirements
 
 ### Packages
+
+pacman and yay:
 ```
 hyprland
 waybar
@@ -23,7 +25,19 @@ thunar
 kitty
 wofi
 wlogout
+xdg-desktop-portal-hyprland
+hyprpaper
+hyprshot
+python
 noto-fonts-emoji
 ttf-nerd-fonts-symbols-common
 ttf-jetbrains-mono-nerd
+```
+
+pip
+```
+distro
+psutil
+speedtest
+flask
 ```

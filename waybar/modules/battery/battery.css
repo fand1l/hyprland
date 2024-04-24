@@ -1,0 +1,17 @@
+#battery {
+    color: #b2bfe7;
+    border-radius: 10px 10px 10px 10px;
+    padding: 0 10px 0 10px;
+}
+
+#battery.full {
+    color: #b2bfe7;
+}
+
+#battery.warning {
+    color: #e4e7b2;
+}
+
+#battery.critical {
+    color: #e7b2b2;
+}

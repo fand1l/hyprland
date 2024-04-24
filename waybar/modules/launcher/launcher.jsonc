@@ -1,0 +1,10 @@
+{
+    "custom/launcher": {
+        "format": "{}",
+        "exec": "~/.config/waybar/scripts/get_distro.py",
+        "interval": 86400,
+        "return-type": "text",
+        "on-click": "wofi --show drun",
+        "tooltip": false
+    }
+}

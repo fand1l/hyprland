@@ -1,0 +1,28 @@
+{
+    "hyprland/workspaces" : {
+        "on-click": "activate",
+        "sort-by-number": true,
+        "active-only": false,
+        "all-outputs": true,
+        "format": "{}",
+        "persistent-workspaces": {
+            "*": 4
+        }
+        // "format-icons": {
+        //     "1": "󰍹 1",
+        //     "2": "󰍹 2",
+        //     "3": "󰍹 3",
+        //     "4": "󰍹 4",
+        //     "5": "󰍹 5",
+        //     "6": " 1",
+        //     "7": " 2",
+        //     "8": " 3",
+        //     "9": " 4",
+        //     "10": " 5"
+        // },
+        // "persistent-workspaces": {
+        //     "HDMI-A-1": [1, 2, 3, 4, 5],
+        //     "eDP-1": [6, 7, 8, 9, 10]
+        // }
+    }
+}

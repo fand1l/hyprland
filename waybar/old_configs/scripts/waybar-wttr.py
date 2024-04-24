@@ -5,7 +5,7 @@ import requests
 from datetime import datetime
 
 WEATHER_CODES = {
-    '113': '☀️',
+    '113': '☀️ ',
     '116': '⛅ ',
     '119': '☁️ ',
     '122': '☁️ ',

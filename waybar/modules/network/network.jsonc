@@ -1,0 +1,12 @@
+{
+    "network": {
+        "format": "{ifname}",
+        "format-wifi": "  {signalStrength}%",
+        "format-ethernet": "󰈀",
+        "format-disconnected": "󰖪",
+        "format-disabled": "󰖪",
+        "on-click": "nm-connection-editor",
+        "max-length": 50,
+        "tooltip": false
+    }
+}

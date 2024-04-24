@@ -1,0 +1,10 @@
+{
+    "custom/updates": {
+        "format": " {}",
+        "interval": 3600,
+        "exec": "i=$(checkupdates); echo \"$i\" |wc -l; echo \"$i\" |column -t |tr '\n' '\r'",
+        "exec-if": "exit 0",
+        "on-click": "kitty -e sudo pacman -Syu",
+        "signal": 8
+    }
+}

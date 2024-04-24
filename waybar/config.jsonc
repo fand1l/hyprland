@@ -1,0 +1,82 @@
+// Modules for Waybar by fand1l ( 2024 )
+// GitHub: https://github.com/fand1l/hyprland
+
+// SETTINGS
+{
+
+    // POSITIONS
+    
+    // top
+    "layer": "top",
+    "margin-top": 4,
+    "margin-bottom": 3,
+
+    // bottom
+    // "position": "bottom",
+    // "margin-top": 0,
+    // "margin-bottom": 12,
+
+    // left/right
+    "margin-left": 7,
+    "margin-right": 7,
+
+    // other
+    "spacing": 0,
+
+    
+    // LOADING MODULES
+    "include": ["~/.config/waybar/modules/battery/battery.jsonc",
+                "~/.config/waybar/modules/bluetooth/bluetooth.jsonc",
+                "~/.config/waybar/modules/clock/clock.jsonc",
+                "~/.config/waybar/modules/disk/disk.jsonc",
+                "~/.config/waybar/modules/language/language.jsonc",
+                "~/.config/waybar/modules/launcher/launcher.jsonc",
+                "~/.config/waybar/modules/netspeed/netspeed.jsonc",
+                "~/.config/waybar/modules/network/network.jsonc",
+                "~/.config/waybar/modules/opener/opener.jsonc",
+                "~/.config/waybar/modules/power/power.jsonc",
+                "~/.config/waybar/modules/pulseaudio/pulseaudio.jsonc",
+                "~/.config/waybar/modules/separator/separator.jsonc",
+                "~/.config/waybar/modules/taskbar/taskbar.jsonc",
+                "~/.config/waybar/modules/temperature/temperature.jsonc",
+                "~/.config/waybar/modules/tray/tray.jsonc",
+                "~/.config/waybar/modules/updates/updates.jsonc",
+                "~/.config/waybar/modules/user/user.jsonc",
+                "~/.config/waybar/modules/weather/weather.jsonc",
+                "~/.config/waybar/modules/window/window.jsonc",
+                "~/.config/waybar/modules/workspaces/workspaces.jsonc"],
+
+    
+    // MODULES
+
+    // Available modules
+    // battery, bluetooth, clock, disk, hyprland/language, custom/launcher, custom/netspeed, network, custom/opener, 
+    // power, pulseaudio, pulseaudio#microphone, custom/separator, wlr/taskbar, temperature, tray, custom/updates,
+    // user, custom/weather, window
+
+    // left
+    "modules-left": ["custom/launcher", "tray"],
+
+    // center
+    "modules-center": ["hyprland/workspaces"],
+
+    // right
+    "modules-right": ["group/info", "custom/separator", "pulseaudio", "pulseaudio#microphone", "custom/separator", "network", "custom/separator", "clock", "battery", "custom/power"],
+
+    // GROUPS
+    "group/info": {
+        "orientation": "inherit",
+        "drawer": {
+            "transition-duration": 500,
+            "transition-left-to-right": false
+        },
+        "modules": [
+            "custom/opener",
+            "custom/updates",
+            "hyprland/language",
+            "bluetooth",
+            "custom/weather",
+            "custom/separator"
+        ]
+    }
+}

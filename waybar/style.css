@@ -5,25 +5,27 @@
 
 
 /* IMPORTS */
-@import url("styles/battery.css");
-@import url("styles/bluetooth.css");
-@import url("styles/clock.css");
-@import url("styles/disk.css");
-@import url("styles/language.css");
-@import url("styles/menu.css");
-@import url("styles/netspeed.css");
-@import url("styles/network.css");
-@import url("styles/power.css");
-@import url("styles/pulseaudio.css");
-@import url("styles/separator.css");
-@import url("styles/taskbar.css");
-@import url("styles/temperature.css");
-@import url("styles/tooltip.css");
-@import url("styles/tray.css");
-@import url("styles/user.css");
-@import url("styles/weather.css");
-@import url("styles/window.css");
-@import url("styles/workspaces.css");
+@import url("modules/battery/battery.css");
+@import url("modules/bluetooth/bluetooth.css");
+@import url("modules/clock/clock.css");
+@import url("modules/disk/disk.css");
+@import url("modules/language/language.css");
+@import url("modules/launcher/launcher.css");
+@import url("modules/netspeed/netspeed.css");
+@import url("modules/network/network.css");
+@import url("modules/opener/opener.css");
+@import url("modules/power/power.css");
+@import url("modules/pulseaudio/pulseaudio.css");
+@import url("modules/separator/separator.css");
+@import url("modules/taskbar/taskbar.css");
+@import url("modules/temperature/temperature.css");
+@import url("modules/tray/tray.css");
+@import url("modules/updates/updates.css");
+@import url("modules/user/user.css");
+@import url("modules/weather/weather.css");
+@import url("modules/window/window.css");
+@import url("modules/workspaces/workspaces.css");
+@import url("tooltip.css");
 
 
 /* ALL */
@@ -33,29 +35,36 @@
   margin: 0;
   min-height: 0;
   font-family: JetBrainsMono Nerd Font;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 700;
 }
 
-#clock,
-#window,
-#language,
-#user,
-#disk,
-#custom-menu,
-#custom-power,
+/* WAYBAR */
+#waybar {
+  background-color: rgba(34, 34, 74, 0.9);
+}
+
 #battery,
-#custom-netspeed,
-#pulseaudio,
-#network,
 #bluetooth,
+#clock,
+#disk,
+#language,
+#custom-launcher,
+#custom-netspeed,
+#network,
+#custom-opener,
+#custom-power,
+#pulseaudio,
+#pulseaudio,
 #taskbar,
-#custom-weather,
-#workspaces,
 #temperature,
-#tray {
-  background-color: #1E1F20;
-  border: 1px solid #242526;
+#tray,
+#custom-updates,
+#user,
+#custom-weather,
+#window,
+#workspaces {
+  /*background-color: rgba(34, 34, 74, 0);*/
   padding-bottom: 5px;
   padding-top: 5px;
 }

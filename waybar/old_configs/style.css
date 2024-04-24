@@ -1,0 +1,60 @@
+/* 
+  Styles for Waybar by fand1l ( 2024 )
+  GitHub: https://github.com/fand1l/hyprland
+*/
+
+
+/* IMPORTS */
+@import url("styles/battery.css");
+@import url("styles/bluetooth.css");
+@import url("styles/clock.css");
+@import url("styles/disk.css");
+@import url("styles/language.css");
+@import url("styles/menu.css");
+@import url("styles/netspeed.css");
+@import url("styles/network.css");
+@import url("styles/power.css");
+@import url("styles/pulseaudio.css");
+@import url("styles/separator.css");
+@import url("styles/taskbar.css");
+@import url("styles/temperature.css");
+@import url("styles/tooltip.css");
+@import url("styles/tray.css");
+@import url("styles/user.css");
+@import url("styles/weather.css");
+@import url("styles/window.css");
+@import url("styles/workspaces.css");
+
+
+/* ALL */
+* {
+  border: none;
+  padding: 0;
+  margin: 0;
+  min-height: 0;
+  font-family: JetBrainsMono Nerd Font;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+#clock,
+#window,
+#language,
+#user,
+#disk,
+#custom-menu,
+#custom-power,
+#battery,
+#custom-netspeed,
+#pulseaudio,
+#network,
+#bluetooth,
+#taskbar,
+#custom-weather,
+#workspaces,
+#temperature,
+#tray {
+  background-color: #1E1F20;
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
