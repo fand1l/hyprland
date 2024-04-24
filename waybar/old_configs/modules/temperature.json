@@ -1,9 +1,0 @@
-{
-    "temperature": {
-        "thermal-zone": 5,
-        "interval": 10,
-        "format": "󰔏 {temperatureC}°C",
-        "critical-threshold": 70,
-        "format-critical": "  {temperatureC}°C"
-    }
-}

@@ -1,9 +1,0 @@
-{
-    "wlr/taskbar": {
-        "all-outputs": true,
-        "format": "{icon}",
-        "on-click": "activate",
-        "tooltip-format": "{title}",
-        "ignore-list": ["kitty"]
-    }
-}

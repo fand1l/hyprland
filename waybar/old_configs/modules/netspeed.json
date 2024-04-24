@@ -1,9 +1,0 @@
-{
-    "custom/netspeed": {
-        "tooltip": false,
-        "format": "{} Mbit",
-        "interval": 30,
-        "exec": "~/.config/waybar/scripts/getspeed.py",
-        "return-type": "text"
-    }
-}

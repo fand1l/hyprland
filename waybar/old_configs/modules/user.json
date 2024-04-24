@@ -1,6 +1,0 @@
-{
-    "user": {
-        "format": "   {user}  |  {work_H}:{work_M} 󰭖 ",
-        "interval": 60
-    }
-}

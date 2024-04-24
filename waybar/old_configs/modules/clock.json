@@ -1,7 +1,0 @@
-{
-    "clock": {
-        "format": "  {:%H:%M:%S     %d.%m}",
-        "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
-        "interval": 1
-    }
-}

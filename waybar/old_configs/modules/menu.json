@@ -1,6 +1,0 @@
-{
-    "custom/menu": {
-        "format": "menu",
-        "on-click": "~/.config/rofi/launchers/type-5/launcher.sh"
-    }
-}
